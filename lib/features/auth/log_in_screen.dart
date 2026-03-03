@@ -69,48 +69,49 @@ class _LogInScreenState extends State<LogInScreen> {
                       ),
                     );
                   },
-                  icon: const Icon(
-                    Icons.arrow_back,
-                    color: Colors.black,
-                    size: 28,
+                  icon: Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 4,
+                          offset: const Offset(0, 2),
+                        ),
+                      ],
+                      border: Border.all(
+                        color: Colors.black.withOpacity(0.1),
+                        width: 1,
+                      ),
+                    ),
+                    child: const Icon(
+                      Icons.arrow_back_ios_new_outlined,
+                      size: 25,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 40),
                 // "Welcome back!" text with exclamation mark
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      'Welcome back',
+                      'Welcome back! Glad \n to see you, Again! ',
                       style: TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const Text(
-                      '!',
-                      style: TextStyle(
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                        color: AppColors.primary,
+                        color: AppColors.textPrimary,
+                        fontFamily: 'Schyler',
                       ),
                     ),
                   ],
                 ),
                 const SizedBox(height: 10),
-                // "See you again!" text with exclamation mark
-                Row(
-                  children: [
-                    const Text(
-                      'See you again',
-                      style: TextStyle(fontSize: 20, color: Colors.black),
-                    ),
-                    const Text(
-                      '!',
-                      style: TextStyle(fontSize: 20, color: AppColors.primary),
-                    ),
-                  ],
-                ),
+
                 const SizedBox(height: 40),
                 // Email text field
                 TextFormField(
@@ -265,12 +266,14 @@ class _LogInScreenState extends State<LogInScreen> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 15),
+                      padding: EdgeInsets.symmetric(horizontal: 30),
                       child: Text(
                         'OR',
                         style: TextStyle(
-                          color: AppColors.textSecondary,
+                          color: AppColors.bookiacolor,
                           fontWeight: FontWeight.w500,
+                          fontSize: 14,
+                          fontFamily: 'Schyler',
                         ),
                       ),
                     ),
@@ -363,7 +366,12 @@ class _LogInScreenState extends State<LogInScreen> {
                   children: [
                     const Text(
                       "Don't have an account",
-                      style: TextStyle(color: Colors.black, fontSize: 14),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
+                        fontFamily: 'Schyler',
+                      ),
                     ),
                     const Text(
                       '?',
@@ -385,6 +393,7 @@ class _LogInScreenState extends State<LogInScreen> {
                           color: AppColors.primary,
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
+                          fontFamily: 'Schyler',
                         ),
                       ),
                     ),

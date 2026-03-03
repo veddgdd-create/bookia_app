@@ -37,7 +37,7 @@ class WelcomeScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 48,
                       fontWeight: FontWeight.bold,
-                      fontFamily: 'Roboto',
+                      fontFamily: 'Schyler',
                       color: Color(0xff2F2F2F),
                     ),
                   ),
@@ -52,6 +52,7 @@ class WelcomeScreen extends StatelessWidget {
                   color: Colors.black,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Schyler',
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.4),
@@ -63,6 +64,7 @@ class WelcomeScreen extends StatelessWidget {
                   color: Colors.white,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Schyler',
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -80,6 +82,7 @@ class WelcomeScreen extends StatelessWidget {
                   color: Colors.black,
                   fontStyle: FontStyle.normal,
                   fontWeight: FontWeight.bold,
+                  fontFamily: 'Schyler',
                 ),
                 onPressed: () {
                   Navigator.push(

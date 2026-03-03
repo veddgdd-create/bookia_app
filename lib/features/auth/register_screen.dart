@@ -88,39 +88,40 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     );
                   },
-                  icon: const Icon(
-                    Icons.arrow_back,
-                    color: Colors.black,
-                    size: 28,
+                  icon: Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.1),
+                          blurRadius: 4,
+                          offset: const Offset(0, 2),
+                        ),
+                      ],
+                      border: Border.all(
+                        color: Colors.black.withOpacity(0.1),
+                        width: 1,
+                      ),
+                    ),
+                    child: const Icon(
+                      Icons.arrow_back_ios_new_outlined,
+                      size: 25,
+                    ),
                   ),
                 ),
-                const SizedBox(height: 40),
-                // "Hello!" text with exclamation mark
-                Row(
-                  children: [
-                    const Text(
-                      'Hello',
-                      style: TextStyle(
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black,
-                      ),
-                    ),
-                    const Text(
-                      '!',
-                      style: TextStyle(
-                        fontSize: 32,
-                        fontWeight: FontWeight.bold,
-                        color: AppColors.primary,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
+                const SizedBox(height: 30),
                 // "Register 2, Get Started" text
                 const Text(
-                  'Register 2, Get Started',
-                  style: TextStyle(fontSize: 20, color: Colors.black),
+                  'Hello! Register to get \n started',
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Schyler',
+                  ),
                 ),
                 const SizedBox(height: 40),
                 // Username text field
@@ -274,6 +275,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     color: Colors.white,
                     fontStyle: FontStyle.normal,
                     fontWeight: FontWeight.bold,
+                    fontFamily: 'Schyler',
                   ),
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
@@ -287,18 +289,25 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     }
                   },
                 ),
-                const SizedBox(height: 40),
+                const SizedBox(height: 160),
                 // Already Have an Account? Login Now (in primary/silver color)
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const Text(
                       'Already Have an Account',
-                      style: TextStyle(color: AppColors.primary, fontSize: 14),
+                      style: TextStyle(
+                        color: AppColors.textPrimary,
+                        fontSize: 14,
+                        fontFamily: 'Schyler',
+                      ),
                     ),
                     const Text(
                       '?',
-                      style: TextStyle(color: AppColors.primary, fontSize: 14),
+                      style: TextStyle(
+                        color: AppColors.textPrimary,
+                        fontSize: 14,
+                      ),
                     ),
                     TextButton(
                       onPressed: () {
@@ -316,6 +325,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           color: AppColors.primary,
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
+                          fontFamily: 'Schyler',
                         ),
                       ),
                     ),

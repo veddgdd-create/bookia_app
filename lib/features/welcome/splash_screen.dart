@@ -81,7 +81,7 @@ class _SplashScreenState extends State<SplashScreen>
                             style: TextStyle(
                               fontSize: 48,
                               fontWeight: FontWeight.bold,
-                              fontFamily: 'Roboto',
+                              fontFamily: 'Schyler',
                               color: Colors.black,
                             ),
                           ),
@@ -96,7 +96,7 @@ class _SplashScreenState extends State<SplashScreen>
                               fontSize: 20,
                               fontStyle: FontStyle.normal,
                               fontWeight: FontWeight.w900,
-                              fontFamily: 'Roboto',
+                              fontFamily: 'Schyler',
                               color: Colors.black,
                             ),
                           ),
