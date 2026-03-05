@@ -1,7 +1,7 @@
 import 'package:bookia_app/core/constants/colors.dart';
 import 'package:bookia_app/core/functions/main_button.dart';
-import 'package:bookia_app/features/auth/log_in_screen.dart';
-import 'package:bookia_app/features/auth/register_screen.dart';
+import 'package:bookia_app/features/auth/presentation/log_in_screen.dart';
+import 'package:bookia_app/features/auth/presentation/register_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {

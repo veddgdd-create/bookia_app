@@ -1,7 +1,7 @@
 import 'package:bookia_app/core/constants/colors.dart';
 import 'package:bookia_app/core/functions/main_button.dart';
-import 'package:bookia_app/features/auth/register_screen.dart';
-import 'package:bookia_app/features/auth/reset_password_screen.dart';
+import 'package:bookia_app/features/auth/presentation/register_screen.dart';
+import 'package:bookia_app/features/auth/presentation/reset_password_screen.dart';
 import 'package:bookia_app/features/home/home_screen.dart';
 import 'package:bookia_app/features/welcome/welcome_screen.dart';
 import 'package:flutter/material.dart';
@@ -154,7 +154,7 @@ class _LogInScreenState extends State<LogInScreen> {
                   obscureText: _obscurePassword,
                   validator: _validatePassword,
                   decoration: InputDecoration(
-                    labelText: 'Enter your email',
+                    labelText: 'Enter your password',
                     labelStyle: const TextStyle(color: AppColors.textSecondary),
                     filled: true,
                     fillColor: Colors.white,
