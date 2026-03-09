@@ -1,0 +1,28 @@
+{
+  "welcome": "مرحبا",
+  "login": "تسجيل الدخول",
+  "register": "إنشاء حساب",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirm_password": "تأكيد كلمة المرور",
+  "forgot_password": "هل نسيت كلمة المرور؟",
+  "dont_have_account": "ليس لديك حساب؟",
+  "already_have_account": "لديك حساب بالفعل؟",
+  "sign_up": "سجل الآن",
+  "sign_in": "دخول",
+  "home": "الرئيسية",
+  "profile": "الملف الشخصي",
+  "search": "بحث",
+  "notifications": "الإشعارات",
+  "settings": "الإعدادات",
+  "logout": "تسجيل الخروج",
+  "success": "نجاح",
+  "error": "خطأ",
+  "loading": "جاري التحميل...",
+  "retry": "إعادة المحاولة",
+  "cancel": "إلغاء",
+  "ok": "موافق",
+  "yes": "نعم",
+  "no": "لا"
+}
+

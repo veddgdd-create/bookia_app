@@ -1,5 +1,8 @@
 class AppImages {
   static const String logoSvg = 'assets/images/logo.svg';
+  static const String logo2 = 'assets/images/logo 2.png';
+  static const String backgroundWelcome = 'assets/images/backgroundwelcome.jpg';
+  static const String successMark = 'assets/images/Successmark.png';
   static const String appleSvg = 'assets/images/cib_apple.svg';
   static const String fbSvg = 'assets/images/facebook_ic.svg';
   static const String googleSvg = 'assets/images/google_ic.svg';

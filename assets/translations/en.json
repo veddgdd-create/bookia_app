@@ -1,0 +1,28 @@
+{
+  "welcome": "Welcome",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "confirm_password": "Confirm Password",
+  "forgot_password": "Forgot Password?",
+  "dont_have_account": "Don't have an account?",
+  "already_have_account": "Already have an account?",
+  "sign_up": "Sign Up",
+  "sign_in": "Sign In",
+  "home": "Home",
+  "profile": "Profile",
+  "search": "Search",
+  "notifications": "Notifications",
+  "settings": "Settings",
+  "logout": "Logout",
+  "success": "Success",
+  "error": "Error",
+  "loading": "Loading...",
+  "retry": "Retry",
+  "cancel": "Cancel",
+  "ok": "OK",
+  "yes": "Yes",
+  "no": "No"
+}
+
